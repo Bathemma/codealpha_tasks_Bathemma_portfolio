@@ -438,6 +438,8 @@ span{
     transform: scale(1.03);
 }
 
+/* Certificate Section*/
+
 
 /* CONTACT SECTION CSS */
 
@@ -883,9 +885,9 @@ span{
     justify-content: right; /* Aligns buttons to the right */
     gap: 0px; /* Adjust the value as needed */
     
-  }
-  .bn5 {
-  padding: 0.6em 2em;
+}
+.bn5 {
+  padding: 0.5em 2em;
   border: none;
   outline: none;
   color: rgb(255, 255, 255);
@@ -893,7 +895,11 @@ span{
   cursor: pointer;
   position: relative;
   z-index: 0;
-  border-radius: 5px;
+  border-radius:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:5px;
 }
 
 .bn5:before {
@@ -1021,4 +1027,5 @@ span{
         padding: 10px;
         font-size: 16px;
     }
+    
 }
